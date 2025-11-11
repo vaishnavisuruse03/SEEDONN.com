@@ -26,6 +26,29 @@ img{max-width:100%;
   height:auto;
   display:block;
 }
+/* ===== Product Banner ===== */
+.product-banner {
+  width: 100%;
+  margin: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-banner img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+  object-fit: cover;
+}
+
+/* Responsive for small screens */
+@media (max-width: 768px) {
+  .product-banner img {
+    border-radius: 0;
+  }
+}
 
 /* Layout helpers */
 .container {
@@ -159,7 +182,7 @@ img{max-width:100%;
 /* Header */
 .site-header{
   position:sticky;top:0;z-index:50;backdrop-filter:saturate(160%) blur(6px);
-  background:color-mix(in oklab, #007c54 75%, #0000);
+  background:color-mix(in oklab, #0e9639 75%, #0000);
   border-bottom:1px solid #273076;
 }
 .nav-wrap{display:flex;align-items:center;justify-content:space-between;padding:10px 0}
