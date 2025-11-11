@@ -267,7 +267,7 @@ img{max-width:100%;
 .footer{background:var(--blue-700);color:#fff;padding:22px 0}
 .footer-inner{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
 .foot-brand{display:flex;align-items:center;gap:10px}
-.foot-brand img{height:30px;filter:invert(1)}
+.foot-brand img{height:30px;filter: brightness(0) invert(1) contrast(1.2);}
 .foot-nav a{color:#fff;text-decoration:none;opacity:.9;margin-left:14px}
 .foot-nav a:hover{opacity:1}
 
